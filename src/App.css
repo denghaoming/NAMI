@@ -1,0 +1,104 @@
+* {
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  width: 100vw;
+  height: auto;
+  background-image: url("./images/AppBg.png");
+  background-size: 100%,100%;
+}
+
+.Header {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 100px;
+}
+
+.Header .brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+}
+
+.Header .brand img {
+  width: 40px;
+  height: 40px;
+}
+
+.Header .brand div {
+  height: 40px;
+}
+
+.Header .menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.Header .menu .img {
+  padding-left: 36px;
+}
+
+.Header .menu .img img {
+  width: 30px;
+  height: 28px;
+}
+
+.Footer {
+  width: 100vw;
+  background: #202121;
+}
+
+.Footer .Line {
+  width: 100vw;
+  height: 1px;
+}
+
+.Footer .CopyRight{
+  margin-top: 40px;
+  font-size: 8px;
+  text-align: center;
+  color: #595757FF;
+}
+
+.Footer .Contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Footer .Contact .Item {
+  width: 50px;
+  width: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Footer .Contact .Item .Twitter {
+  width: 38px;
+  width: 38px;
+}
+
+.Footer .Contact .Item .Telegram {
+  width: 38px;
+  width: 38px;
+}
+
+.font1 {
+  font-family: Phosphate, sans-serif;
+}
+
+.font2 {
+  font-family: Hiragino Mincho, sans-serif;
+}
+
+@media screen and (max-width: 600px) {}
